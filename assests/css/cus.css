@@ -1,0 +1,131 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
+}
+.flex {
+  display: flex;
+}
+.primary-color {
+  color: #115e59;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+.text-white {
+  color: #fff;
+  font-size: 1.3rem;
+}
+.mr-1 {
+  margin-right: 15px;
+}
+.mt-1 {
+  margin-top: 150px;
+}
+.mt-2 {
+  margin-top: 10px;
+}
+.mt-3 {
+  margin-top: 50px;
+}
+.ml-1 {
+  margin-left: 10px;
+}
+.padding {
+  padding: 25px 50px 25px 50px;
+}
+.position-fixed {
+  position: fixed;
+  z-index: 10;
+  top: 0%;
+  width: 100%;
+}
+.box-shadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.img-fluid {
+  width: 600px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.font-size {
+  font-size: 50px;
+}
+.Navone {
+  background-color: white;
+  width: 100%;
+  padding: 11px 50px 11px 50px;
+}
+.second-nav {
+  background-color: black;
+  width: 100%;
+  padding: 25px 50px 25px 50px;
+}
+.logo-home {
+  background-color: #115e59;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.font-bold {
+  font-weight: bolder;
+}
+.size {
+  font-size: 13px;
+}
+.list a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bolder;
+}
+
+.list a:hover {
+  text-decoration: underline;
+}
+.btn-primary {
+  background-color: #115e59;
+  border: 0;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  width: 170px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.video {
+  width: 400px;
+  border-radius: 10px;
+}
+.img-cctv {
+  width: 400px;
+  border-radius: 10px;
+}
+.img-fluid1 {
+  width: 500px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.card {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 20px;
+}
