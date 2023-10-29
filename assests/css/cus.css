@@ -121,11 +121,58 @@
   border-radius: 10px;
 }
 .card {
-  width: 350px;
+  width: 100%;
   height: 300px;
   border-radius: 10px;
   background-color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   padding: 20px;
+  margin: 10px;
+}
+.shopping-card{
+    width: 100%;
+    height: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin:10px;
+    text-align: center;
+}
+.bg-secondary{
+    width:100%;
+    height:300px;
+    background-color: #dbeafe;
+    text-align: center;
+}
+.shopping-img{
+    width:300px;
+    object-fit: cover;
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+.testimo-card{
+    width: 100%;
+    height: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin:10px;
+    text-align: center;
+}
+.test-img{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+    text-align: center;
+}
+.footer{
+    width:100%;
+    height:400px;
+    background-color: black;
+    margin-top: 50px;
 }
